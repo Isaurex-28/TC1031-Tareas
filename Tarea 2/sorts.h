@@ -1,8 +1,7 @@
-#ifndef ALGORITMOS_H
-#define ALGORITMOS_H
+#ifndef SORTS_H
+#define SORTS_H
 
 #include <vector>
-#include <list>
 
 template <class T>
     class Sorts{
