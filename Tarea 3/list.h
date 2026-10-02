@@ -190,11 +190,11 @@ T List<T>::deleteAt(int index) {
 	}
 
 	Link<T> *p = head;
-	T val;
+	T valor;
 
 	if (index == 0) {
 		head = p->next;
-		val = p->value;
+		valor = p->value;
 		delete p;
 	} 
 	else {
